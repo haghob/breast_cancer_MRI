@@ -1,0 +1,15 @@
+
+Invasive Ductal Carcinoma (IDC) also called infiltrating ductal carcinoma, is the most common type of breast cancer. About 75% of all breast cancers are IDC.
+
+
+0 est non-IDC : 1 est IDC.
+
+Le cancer du sein est la forme la plus courante de cancer chez les femmes, et le carcinome canalaire invasif (IDC) est la forme la plus courante de cancer du sein. 
+
+on a utilisé la " fastai" bibliothèque et de voir comment améliorer les performances prédictives en incorporant des pratiques modernes d'apprentissage en profondeur.
+
+https://docs.fast.ai/ 
+
+******************************************************************************
+
+
