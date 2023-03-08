@@ -45,3 +45,52 @@ FC1
 FC2
 FC3
 Softmax
+
+
+3x3 sepconv, 32
+pool 2,2
+3x3 sepconv, 64
+3x3 sepconv, 64
+pool 2,2
+3x3 sepconv, 128
+3x3 sepconv, 128
+3x3 sepconv, 128
+pool 2,2
+FC1
+FC2
+FC3
+Softmax
+
+********************************************************************
+Pourquoi des sepconv ?
+
+1.Plus efficace
+2.Requiert moins mémoire
+3.Requiert moins de calculs
+4.Peut être plus performant dans certaines situations que convolution normale
+
+Pourquoi softmax ? 
+
+problème de classification multi-classe
+Le modèle prédictif renvoie :
+
+Soit la classe prédite (identifiée par un numéros par exemple).
+Soit la liste des probabilités d’appartenance à chaque classe. 
+Le modèle renvoie alors un vecteur de probabilité, c’est-à-dire une vecteur de nombres entre 0 et 1, dont la somme vaut 1.
+
+
+Precision :
+
+Très précis pour les tumeurs bénignes (95%) mais beaucoup moins pour les malignes (environ 70%).
+Cela peut s'expliquer par le fait que les tumeurs bénignes se ressemblent probablement plus que 
+les tumeurs malignes qui peuvent être de différents types donc plus compliqué à détecter car 
+très spécifique selon les cas. 
+
+
+Max-pooling : 
+It selects maximum element from the feature map. The resulting max-pooled layer holds important features of feature map. 
+It is the most common approach as it gives better results.
+
+ReLU sets all negative values to zero and all other values remains constant. It is mathematically represented as
+
+
