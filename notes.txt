@@ -13,3 +13,11 @@ https://docs.fast.ai/
 ******************************************************************************
 
 
+* Image parcourus par des Filtres qui font la convolution (un filtre = une convo = opération) 
+* Activation map 
+* une couche de conv c'est un volume 
+* la partie blanche est un padding, sert à grandir l'image (l'image d'entrée)
+* le starght = pas (à laquelle va se déplacer le filtre) un pixel par pixel (on peut faire 2 par 2 ou 3 par 3 ou plus)
+* pas plus grand que 1 ça permet de réduire le volume (après une conv on a besoin de réduire le volume)
+* une entré qui assez grande 
+* la couche de polling a exact le même role que le straight 
