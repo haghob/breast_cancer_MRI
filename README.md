@@ -38,7 +38,7 @@ Epoch = 40
 Learning_rate = 1e-2
 Batch_size = 32
 
-![results](40_epoch.png)
+![results](Images/40_epoch.png)
 
 
 ## 1er test 
@@ -47,7 +47,7 @@ Epoch = 10
 Learning_rate = 1e-2
 Batch_size = 32
 
-![results](10_epoch.png)
+![results](Images/10_epoch.png)
 
 
 ## 2ème test 
@@ -56,7 +56,7 @@ Epoch = 20
 Learning_rate = 1e-2
 Batch_size = 32
 
-![results](20_epoch.png)
+![results](Images/20_epoch.png)
 
 ## 3ème test 
 Paramètre : 
@@ -64,7 +64,7 @@ Epoch = 40
 Learning_rate = 1e-3
 Batch_size = 32
 
-![results](40_epoch_final.png)
+![results](Images/40_epoch_final.png)
 
 ## 4ème test 
 Paramètre : 
@@ -72,7 +72,7 @@ Epoch = 60
 Learning_rate = 1e-3
 Batch_size = 32
 
-![results](60_epoch.png)
+![results](Images/60_epoch.png)
 
 
 ## L'architecture de notre modèle 
@@ -92,7 +92,7 @@ Softmax
 
 ## Schéma 
 
-![Diagram](Diagramme.png)
+![Diagram](Images/Diagramme.png)
 
 ## SepConv  (Separable Convolution) 
 
